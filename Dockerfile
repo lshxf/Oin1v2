@@ -2,12 +2,11 @@
 #
 # Version: 1.3.0
 
-FROM ubuntu:14.04
+FROM CENTOS
 
 
 # install git & curl & unzip & daemon
-RUN apt-get -qq update && \
-    apt-get install -q -y git curl unzip daemon
+RUN yum install -q -y git curl unzip daemon
 
 # run install script
 RUN mkdir -p /usr/internet/
