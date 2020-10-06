@@ -6,7 +6,7 @@ FROM centos
 
 
 # install git & curl & unzip & daemon
-# RUN yum install -q -y git curl unzip daemon
+RUN yum install -y git curl unzip daemon
 
 # run install script
 RUN mkdir -p /usr/v2/
