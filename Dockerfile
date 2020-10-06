@@ -2,7 +2,7 @@
 #
 # Version: 1.3.0
 
-FROM centos
+FROM centos:lates
 
 
 # install git & curl & unzip & daemon
