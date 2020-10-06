@@ -2,7 +2,7 @@
 #
 # Version: 1.3.0
 
-FROM CENTOS
+FROM centos
 
 
 # install git & curl & unzip & daemon
