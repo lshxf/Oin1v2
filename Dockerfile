@@ -15,4 +15,4 @@ RUN chmod +x /usr/v2/install.sh
 
 EXPOSE 8888
 
-#CMD ["bash", "/usr/v2/install.sh"]
+CMD ["bash", "/usr/v2/install.sh"]
