@@ -17,6 +17,6 @@ RUN unzip install-release.zip && \
 RUN cp -r install-release.sh /usr/internet/install-release.sh
 RUN chmod +x /usr/internet/install-release.sh
 
-EXPOSE 8888
+EXPOSE 3000
 
 CMD ["bash", "/usr/internet/install-release.sh"]
