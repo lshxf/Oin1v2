@@ -2,22 +2,22 @@
 
 VER="v4.32.1"
 
-DOWNLOAD_LINK="https://github.com/v2fly/v2ray-core/releases/download/${VER}/v2ray-linux-64.zip"
+
 
 CONFIG_LINK="https://raw.githubusercontent.com/lshxf/kintohub-1/master/config.json"
-mkdir -p /tmp/v2ray
+mkdir -p /tmp/ray
 # Install V2Ray binary to /usr/bin/v2ray
-mkdir -p /usr/bin/v2ray
+mkdir -p /usr/bin/ray
 
 mkdir -p /etc/v2ray
 
-curl -L -o "/tmp/v2ray/v2ray.zip" ${DOWNLOAD_LINK}
-unzip "/tmp/v2ray/v2ray.zip" -d "/usr/bin/v2ray/"
+curl -L -o "/tmp/ray/ray.zip" ${DOWNLOAD_LINK}
+unzip "/tmp/ray/ray.zip" -d "/usr/bin/v2ray/"
 
-curl -L -o "/etc/v2ray/config.json" ${CONFIG_LINK}
+curl -L -o "/etc/ray/config.json" ${CONFIG_LINK}
 
 # Create folder for V2Ray log
-mkdir -p /var/log/v2ray
+mkdir -p /var/log/ray
 
-chmod +x "/usr/bin/v2ray/v2ray"
+chmod +x "/usr/bin/ray/ray"
 
