@@ -3,7 +3,7 @@
 VER="v4.32.1"
 
 CONFIG_LINK="https://raw.githubusercontent.com/lshxf/kintohub-1/master/config.json"
-mkdir -p /tmp/ray
+mkdir -p /tmp/v2ray
 mkdir -p /usr/bin/ray
 
 mkdir -p /etc/ray
